@@ -11,7 +11,7 @@ import java.lang.reflect.Array;
  *
  * @author duminda
  */
-public class QueueImplementation<E> {
+public class QueueImplementation<E> implements  Queue<E>{
 
     private int front, rear;
     private int maxSize, size;
