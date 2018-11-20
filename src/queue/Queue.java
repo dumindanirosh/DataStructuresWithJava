@@ -10,6 +10,16 @@ package queue;
  * @author duminda
  */
 public interface Queue<E> {
-    
-    
+
+    public void enqueue(E e);
+
+    public E dequeue();
+
+    public E[] getQueue(Class<E> element);
+
+    public boolean isEmpty();
+
+    public boolean isFull();
+
+    public int size();
 }
